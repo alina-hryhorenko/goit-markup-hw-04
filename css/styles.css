@@ -432,6 +432,12 @@ color: #2e2f42;
 .portfolio-item:focus .portfolio-overlay {
     transform: translateY(0%);
 }
+
+.portfolio-link:hover .portfolio-overlay,
+.portfolio-link:focus .portfolio-overlay {
+    transform: translateY(0);
+}
+
 .portfolio-link {
     display: block;
         width: 100%;
